@@ -409,11 +409,13 @@ private void linkFirst(E e) {
 >	`E remove() {}` //同 removeFirst()
 > 
 >   ` E poll() {}`   //同 pollFirst()
+> 
 >2. 继承自Deque：移除元素,抛异常;
 > 
 >   `E removeFirst() {}` //从队首移除;
 >   
 >    `E removeLast() {}` //从队尾移除;
+> 
 >3. 继承自Deque：移除元素,不抛异常;
 > 
 >    `E pollFirst() {}` //从队首移除;
@@ -523,14 +525,17 @@ private E unlinkLast(Node<E> l) {
 >  `E element() {}`//同 getFirst()
 > 
 >  `E peek() {}`    //同 peekFirst()
+> 
 >2. 获取元素，但不移除,若为空队列时，抛出异常;
 >
 >  `E getFirst() {}` //获取队首元素
 > 
 >  `E getLast() {}`  //获取队尾元素
+> 
 >3. 获取元素，但不移除,若为空队列时，不抛出异常;
 >
 >  `E peekFirst() {}` //获取队首元素
+> 
 >  `E peekLast() {}` //获取队尾元素
 
 
