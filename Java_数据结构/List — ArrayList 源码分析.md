@@ -153,9 +153,9 @@ public static native void arraycopy(Object src,  int  srcPos,
 >**添加元素的4种方法：**
 >
 >1. `public boolean add(E e) {}`
-2. `public void add(int index, E element) {}`
-3. `public boolean addAll(Collection<? extends E> c) {}`
-4. `public boolean addAll(int index, Collection<? extends E> c) {}`
+>2. `public void add(int index, E element) {}`
+>3. `public boolean addAll(Collection<? extends E> c) {}`
+>4. `public boolean addAll(int index, Collection<? extends E> c) {}`
 
 
 `public boolean add(E e) {}`
@@ -255,11 +255,11 @@ public void add(int index, E element) {
 >**删除元素的5种方法：**
 >
 >1. `public E remove(int index) {}`
-2. `public boolean remove(Object o) {}`
-3. `public void clear() {}`
-3. `public boolean removeAll(Collection<?> c) {}`
-4. `public boolean removeIf(Predicate<? super E> filter) {}`
-5. `protected void removeRange(int fromIndex, int toIndex) {}`
+>2. `public boolean remove(Object o) {}`
+>3. `public void clear() {}`
+>3. `public boolean removeAll(Collection<?> c) {}`
+>4. `public boolean removeIf(Predicate<? super E> filter) {}`
+>5. `protected void removeRange(int fromIndex, int toIndex) {}`
 
 `public E remove(int index) {}`
 
