@@ -44,9 +44,8 @@ public interface Serializable {}
 ---
 
 ## 二、类图
-![](./img/List_集合图.jpeg)
 
-![这里写图片描述](https://img-blog.csdn.net/2018051717011998?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0xvdmU2Njc3Njc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](./img/List_集合图.jpeg)
 
 ---
 
@@ -472,7 +471,6 @@ protected void removeRange(int fromIndex, int toIndex) {
 ```
 
 **效果图如下：**
-![这里写图片描述](https://img-blog.csdn.net/20180517215539497?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0xvdmU2Njc3Njc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 ![](./img/List_元素的移除.png)
 
